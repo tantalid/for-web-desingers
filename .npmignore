@@ -1,0 +1,10 @@
+*
+!docs/**
+!fonts/**
+!images/**
+!pictures/**
+!styles/*.css
+!index.html
+!LICENSE.md
+!README.md
+!package.json
