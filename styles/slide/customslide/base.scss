@@ -1,24 +1,49 @@
 // ------------------------------------------------------------------
-// Custom Slide
+// Custom Slide styles
 // ------------------------------------------------------------------
-.text-center {
-    text-align: center;
+.slide ul>li:lang(ru):before {
+    content: '•';
 }
-.text-right {
-    text-align: right;
-}
-.text-left {
-    text-align: left;
+.slide {
+    h3 {
+        font: 700 40px/1 PT Sans Narrow,sans-serif;
+        margin-bottom: 50px;
+    }
+    .text-center {
+        text-align: center;
+    }
+    .text-right {
+        text-align: right;
+    }
+    .text-left {
+        text-align: left;
+    }
+
+    .title-big {
+        margin-top: 170px;
+        font-size: 72px;
+        line-height: 1.2;
+        text-align: center;
+    }
+
+    .p-small {
+        margin-top: -10px;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+
+    .footnote {
+        display: inline-block;
+        font-size: 16px;
+        color: #FF0000;
+        line-height: 1;
+        vertical-align: super;
+    }
 }
 
-.title-big {
-    margin-top: 170px;
-    font-size: 72px;
-    line-height: 1.2;
-    text-align: center;
-}
-
-// ---
+// ------------------------------------------------------------------
+// Custom Slide 
+// ------------------------------------------------------------------
 .s-title h2 {
     line-height: 1.5;
 }
@@ -28,7 +53,6 @@
         background: none;
         text-decoration: none;
     }
-
 }
 
 .img-sparta {
@@ -37,7 +61,23 @@
     right: 120px;
 }
 
+.s-font-safe {
+    padding: 60px;
+    
+    h3 {
+        margin-bottom: 10px;
+    }
+    li {
+        line-height: 1.6;
+    }
+}
 
+.s-smoothing {
+    h3 .footnote {
+        position: relative;
+        top: -25px;
+    }
+}
 
 
 
