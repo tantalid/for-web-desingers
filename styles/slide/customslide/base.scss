@@ -79,5 +79,16 @@
     }
 }
 
-
-
+.img-layer-style {
+    position: absolute;
+    top: 180px;
+    right: 50px;
+    width: 400px;
+}
+.img-raster {
+    display: inline-block;
+    margin-right: 280px;
+}
+.img-vector {
+    display: inline-block;
+}
