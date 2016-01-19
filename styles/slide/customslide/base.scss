@@ -9,6 +9,9 @@
         font: 700 40px/1 PT Sans Narrow,sans-serif;
         margin-bottom: 50px;
     }
+    .shout {
+        text-shadow: 0 0 8px #fff;
+    }
     .text-center {
         text-align: center;
     }
@@ -79,5 +82,16 @@
     }
 }
 
-
-
+.img-layer-style {
+    position: absolute;
+    top: 180px;
+    right: 50px;
+    width: 400px;
+}
+.img-raster {
+    display: inline-block;
+    margin-right: 280px;
+}
+.img-vector {
+    display: inline-block;
+}
